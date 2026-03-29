@@ -40,18 +40,14 @@ main {
   padding: 2rem 1rem;
 }
 
-.ascii-art {
-  background: #fff8e7;
-  border: 2px solid #f0d080;
-  border-radius: 8px;
-  padding: 1.5rem;
+.snoopy-image {
   text-align: center;
-  font-family: monospace;
-  font-size: 0.85rem;
-  line-height: 1.4;
-  white-space: pre;
   margin-bottom: 2rem;
-  overflow-x: auto;
+}
+
+.snoopy-image img {
+  max-width: 300px;
+  height: auto;
 }
 
 .section-title {
