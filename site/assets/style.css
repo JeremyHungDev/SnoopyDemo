@@ -1,0 +1,136 @@
+/* SnoopyDemo/site/assets/style.css */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Georgia', serif;
+  background-color: #fdf6e3;
+  color: #3c3c3c;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+  background-color: #4a90d9;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  font-size: 3rem;
+  letter-spacing: 0.05em;
+}
+
+header p {
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  opacity: 0.9;
+}
+
+main {
+  max-width: 800px;
+  width: 100%;
+  padding: 2rem 1rem;
+}
+
+.ascii-art {
+  background: #fff8e7;
+  border: 2px solid #f0d080;
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+  font-family: monospace;
+  font-size: 0.85rem;
+  line-height: 1.4;
+  white-space: pre;
+  margin-bottom: 2rem;
+  overflow-x: auto;
+}
+
+.section-title {
+  font-size: 1.4rem;
+  color: #4a90d9;
+  border-bottom: 2px solid #4a90d9;
+  padding-bottom: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+.bio {
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+.quotes {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+blockquote {
+  background: white;
+  border-left: 4px solid #4a90d9;
+  padding: 1rem 1.5rem;
+  border-radius: 0 8px 8px 0;
+  font-style: italic;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+blockquote cite {
+  display: block;
+  margin-top: 0.5rem;
+  font-style: normal;
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.friends {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.friend-card {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1rem;
+  flex: 1;
+  min-width: 150px;
+  text-align: center;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+}
+
+.friend-card .emoji {
+  font-size: 2rem;
+}
+
+.friend-card h3 {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #4a90d9;
+}
+
+.friend-card p {
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 0.3rem;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.85rem;
+  color: #aaa;
+  border-top: 1px solid #e0e0e0;
+  margin-top: auto;
+}
